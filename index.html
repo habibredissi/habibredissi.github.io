@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>~ Habib's Homepage ~</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== BOOT SCREEN ====== -->
+  <div class="boot-screen" id="boot-screen">
+    <div class="boot-line" id="boot-1">HABIB-OS v2.026 [Build 0227]</div>
+    <div class="boot-line" id="boot-2">Copyright (c) 2026 Habib Redissi. All rights reserved.</div>
+    <div class="boot-line" id="boot-3">&nbsp;</div>
+    <div class="boot-line" id="boot-4">Checking system memory... <span class="boot-ok">10+ years OK</span></div>
+    <div class="boot-line" id="boot-5">Loading skills: <span class="boot-highlight">TypeScript, React, Node.js, Python</span></div>
+    <div class="boot-line" id="boot-6">Mounting projects... <span class="boot-ok">7 found</span></div>
+    <div class="boot-line" id="boot-7">Initializing AI subsystems... <span class="boot-ok">READY</span></div>
+    <div class="boot-line" id="boot-8">&nbsp;</div>
+    <div class="boot-line" id="boot-9">Starting habib-homepage.exe...<span class="boot-cursor"></span></div>
+  </div>
+
+  <!-- ====== HEADER / HERO ====== -->
+  <header class="header">
+    <div class="header-bar">
+      <div class="marquee-container">
+        <div class="marquee-text">&#9733; Welcome to Habib's Homepage &#9733; Senior Software Engineer &#9733; Founding Engineer &#9733; 0-to-1 Builder &#9733; Los Angeles, CA &#9733;</div>
+      </div>
+    </div>
+    <div class="hero">
+      <h1 class="hero-title">Habib Redissi</h1>
+      <p class="hero-subtitle">Senior Software Engineer</p>
+      <p class="hero-tagline">Founding Engineer &middot; 0-to-1 Builder &middot; Los Angeles, CA</p>
+    </div>
+    <nav class="nav">
+      <a href="#about" class="nav-link">[About Me]</a>
+      <a href="#skills" class="nav-link">[Skills]</a>
+      <a href="#experience" class="nav-link">[Experience]</a>
+      <a href="#projects" class="nav-link">[Projects] <span class="blink-new">NEW!</span></a>
+      <a href="#contact" class="nav-link">[Contact]</a>
+    </nav>
+  </header>
+
+  <div class="page-container">
+
+    <!-- ====== ABOUT ME ====== -->
+    <section id="about" class="panel">
+      <div class="panel-title-bar">
+        <span class="panel-title-text">&#128100; About Me</span>
+        <span class="panel-title-buttons">
+          <span class="win-btn">_</span>
+          <span class="win-btn">&#9633;</span>
+          <span class="win-btn win-close">X</span>
+        </span>
+      </div>
+      <div class="panel-body about-body">
+        <div class="about-photo">
+          <div class="photo-frame">
+            <img src="me-18bits.png" alt="Habib Redissi" class="photo-img">
+          </div>
+          <p class="photo-caption">habib_r.jpg</p>
+        </div>
+        <div class="about-info">
+          <p class="about-bio">
+            Senior Software Engineer with 10+ years building production systems.
+            Founding engineer twice over &mdash; first at Cast, then at Nota, where I
+            built the core platform now used by 600+ newsroom users across 10+ enterprise
+            clients. Independently shipped Citron, a mobile app with 10K downloads and
+            $1K MRR. I like building things from nothing and shipping them to people who
+            use them every day.
+          </p>
+          <div class="about-details">
+            <p><span class="label">Location:</span> Los Angeles, CA</p>
+            <p><span class="label">Experience:</span> 10+ years</p>
+            <p><span class="label">Speciality:</span> Full-Stack TypeScript, AI Products</p>
+            <p><span class="label">Education:</span> Epitech (Paris), IIM (Paris), HEC (Tunis)</p>
+          </div>
+          <div class="status-line">
+            <span class="status-dot"></span>
+            <span class="status-text">Status: Open to new opportunities</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SKILLS ====== -->
+    <section id="skills" class="panel">
+      <div class="panel-title-bar">
+        <span class="panel-title-text">&#9876; Stats &amp; Abilities</span>
+        <span class="panel-title-buttons">
+          <span class="win-btn">_</span>
+          <span class="win-btn">&#9633;</span>
+          <span class="win-btn win-close">X</span>
+        </span>
+      </div>
+      <div class="panel-body">
+        <table class="stats-table">
+          <tr>
+            <td class="stat-label">Languages</td>
+            <td class="stat-bar-cell">
+              <div class="stat-bar"><div class="stat-fill" style="width: 95%"></div></div>
+            </td>
+            <td class="stat-desc">TypeScript, JavaScript, Python, PHP</td>
+          </tr>
+          <tr>
+            <td class="stat-label">Frontend</td>
+            <td class="stat-bar-cell">
+              <div class="stat-bar"><div class="stat-fill" style="width: 92%"></div></div>
+            </td>
+            <td class="stat-desc">React, React Native, Next.js, Vue.js, Tailwind</td>
+          </tr>
+          <tr>
+            <td class="stat-label">Backend</td>
+            <td class="stat-bar-cell">
+              <div class="stat-bar"><div class="stat-fill" style="width: 88%"></div></div>
+            </td>
+            <td class="stat-desc">Node.js, Express, Fastify, PostgreSQL, Redis, MongoDB</td>
+          </tr>
+          <tr>
+            <td class="stat-label">AI/ML</td>
+            <td class="stat-bar-cell">
+              <div class="stat-bar"><div class="stat-fill" style="width: 80%"></div></div>
+            </td>
+            <td class="stat-desc">OpenAI, Gemini, Langchain, Vector DBs</td>
+          </tr>
+          <tr>
+            <td class="stat-label">Cloud</td>
+            <td class="stat-bar-cell">
+              <div class="stat-bar"><div class="stat-fill" style="width: 72%"></div></div>
+            </td>
+            <td class="stat-desc">GCP, Heroku, Azure (AZ-900), Docker, Git</td>
+          </tr>
+          <tr>
+            <td class="stat-label">Tools</td>
+            <td class="stat-bar-cell">
+              <div class="stat-bar"><div class="stat-fill" style="width: 95%"></div></div>
+            </td>
+            <td class="stat-desc">Claude Code, Cursor, Figma, VS Code</td>
+          </tr>
+        </table>
+        <p class="stats-footer">LVL 10+ &middot; Class: Full-Stack Engineer &middot; Alignment: Builder</p>
+      </div>
+    </section>
+
+    <!-- ====== EXPERIENCE ====== -->
+    <section id="experience" class="panel">
+      <div class="panel-title-bar">
+        <span class="panel-title-text">&#128188; Experience Board</span>
+        <span class="panel-title-buttons">
+          <span class="win-btn">_</span>
+          <span class="win-btn">&#9633;</span>
+          <span class="win-btn win-close">X</span>
+        </span>
+      </div>
+      <div class="panel-body forum-body">
+
+        <!-- Post: Nota -->
+        <div class="forum-post">
+          <div class="post-header">
+            <span class="post-title">Senior Software Engineer @ Nota</span>
+            <span class="post-date">Aug 2023 - Present &middot; Los Angeles, CA</span>
+          </div>
+          <div class="post-content">
+            <div class="post-avatar">
+              <div class="avatar-box" style="background: #1E3A8A;">N</div>
+              <span class="post-role">Founding<br>Engineer</span>
+            </div>
+            <div class="post-body">
+              <p class="post-subtitle">AI content platform for newsrooms</p>
+              <ul>
+                <li>Architected and scaled platform from 0 &rarr; 600+ newsroom users across 10+ enterprise clients</li>
+                <li>Built Chrome extension from scratch, managed full lifecycle to Chrome Web Store release, used daily by hundreds of journalists</li>
+                <li>Led development of Draft &mdash; flagship AI writing product powering thousands of articles per day</li>
+                <li>Co-led WordPress plugin (PHP, React, Node.js) enabling AI-assisted content at scale</li>
+                <li>Created Proof (0&rarr;1) &mdash; AI-powered SEO grading tool for real-time writing feedback</li>
+                <li>Built Python scrapers ingesting local news from underreported U.S. markets</li>
+              </ul>
+              <div class="post-karma">&#9733; 600+ users &middot; 10+ enterprise clients</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="forum-divider">- - - - - - - - - - - - - - - - - - - - - - - -</div>
+
+        <!-- Post: Cast -->
+        <div class="forum-post">
+          <div class="post-header">
+            <span class="post-title">Senior Software Engineer @ Cast Corporation</span>
+            <span class="post-date">Dec 2021 - Jul 2023 &middot; San Francisco, CA</span>
+          </div>
+          <div class="post-content">
+            <div class="post-avatar">
+              <div class="avatar-box" style="background: #7C3AED;">C</div>
+              <span class="post-role">Founding<br>Engineer</span>
+            </div>
+            <div class="post-body">
+              <p class="post-subtitle">Owned core product, led transition to generative AI</p>
+              <ul>
+                <li>Revamped unstable web platform, increasing user satisfaction by 30%</li>
+                <li>Shipped generative AI features using OpenAI API, contributing to 20% customer increase</li>
+                <li>Engineered text-to-speech API handling 10K+ daily requests, reduced response times by 50%</li>
+                <li>Established testing culture (Jest, Cypress), achieving 90% reduction in production bugs</li>
+              </ul>
+              <div class="post-karma">&#9733; 10K+ daily requests &middot; 30% satisfaction boost</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="forum-divider">- - - - - - - - - - - - - - - - - - - - - - - -</div>
+
+        <!-- Post: Contractor -->
+        <div class="forum-post">
+          <div class="post-header">
+            <span class="post-title">Senior Software Engineer @ Contractor</span>
+            <span class="post-date">Apr 2019 - Dec 2021 &middot; Paris, France</span>
+          </div>
+          <div class="post-content">
+            <div class="post-avatar">
+              <div class="avatar-box" style="background: #059669;">&#9670;</div>
+              <span class="post-role">Clients:<br>3</span>
+            </div>
+            <div class="post-body">
+              <p class="post-subtitle">Twonco (Healthcare) &middot; Merck (Pharma) &middot; MaibornWolff (Enterprise)</p>
+              <ul>
+                <li>Built medical web app for Twonco &mdash; 5K+ daily users, 99% uptime</li>
+                <li>Developed internal social platform for Merck &mdash; 3K+ active users in first month</li>
+                <li>Designed room booking system for MaibornWolff, reducing booking time by 40%</li>
+              </ul>
+              <div class="post-karma">&#9733; Healthcare &middot; Pharma &middot; Enterprise</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="forum-divider">- - - - - - - - - - - - - - - - - - - - - - - -</div>
+
+        <!-- Older posts toggle -->
+        <div class="older-posts-toggle">
+          <button id="show-older-btn" class="retro-btn" onclick="toggleOlderPosts()">
+            &gt;&gt; Show older posts (2 more) &lt;&lt;
+          </button>
+        </div>
+
+        <div id="older-posts" class="older-posts hidden">
+          <!-- Post: Luckey -->
+          <div class="forum-post">
+            <div class="post-header">
+              <span class="post-title">Software Engineer @ Luckey By Airbnb</span>
+              <span class="post-date">Jan 2019 - Mar 2019 &middot; Paris, France</span>
+            </div>
+            <div class="post-content">
+              <div class="post-avatar">
+                <div class="avatar-box" style="background: #E11D48;">L</div>
+                <span class="post-role">Engineer</span>
+              </div>
+              <div class="post-body">
+                <ul>
+                  <li>Led frontend modernization from AngularJS to Vue.js, improving load speed by 20%</li>
+                  <li>Built API services with Laravel to support new Vue.js components</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="forum-divider">- - - - - - - - - - - - - - - - - - - - - - - -</div>
+
+          <!-- Post: Frontend Contractor -->
+          <div class="forum-post">
+            <div class="post-header">
+              <span class="post-title">Frontend Developer @ Contractor</span>
+              <span class="post-date">Oct 2016 - Sep 2018 &middot; Paris, France</span>
+            </div>
+            <div class="post-content">
+              <div class="post-avatar">
+                <div class="avatar-box" style="background: #D97706;">F</div>
+                <span class="post-role">Frontend</span>
+              </div>
+              <div class="post-body">
+                <ul>
+                  <li>Built e-commerce sites (WooCommerce, Shopify) generating $500K+ annual revenue</li>
+                  <li>Delivered WordPress implementations, reducing design-to-dev time by 25%</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== PROJECTS ====== -->
+    <section id="projects" class="panel">
+      <div class="panel-title-bar">
+        <span class="panel-title-text">&#128187; My Projects</span>
+        <span class="panel-title-buttons">
+          <span class="win-btn">_</span>
+          <span class="win-btn">&#9633;</span>
+          <span class="win-btn win-close">X</span>
+        </span>
+      </div>
+      <div class="panel-body">
+        <div class="projects-grid">
+
+          <!-- Citron -->
+          <div class="project-window">
+            <div class="window-title-bar">
+              <span class="window-title">citron.exe <span class="blink-new">NEW!</span></span>
+              <span class="panel-title-buttons">
+                <span class="win-btn-sm">_</span>
+                <span class="win-btn-sm">&#9633;</span>
+                <span class="win-btn-sm win-close-sm">X</span>
+              </span>
+            </div>
+            <div class="window-body">
+              <div class="project-screenshot">
+                <span class="screenshot-icon">&#127843;</span>
+              </div>
+              <h3 class="project-name">Citron</h3>
+              <p class="project-desc">AI-powered recipe app. Import from Instagram, TikTok, websites. Smart grocery lists.</p>
+              <div class="project-stats">
+                <span class="project-stat">&#128200; 10K downloads</span>
+                <span class="project-stat">&#11088; 4.9 rating</span>
+                <span class="project-stat">&#128176; $1K MRR</span>
+              </div>
+              <div class="project-badges">
+                <span class="tech-badge">React Native</span>
+                <span class="tech-badge">Expo</span>
+                <span class="tech-badge">Fastify</span>
+                <span class="tech-badge">OpenAI</span>
+                <span class="tech-badge">Gemini</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Draft -->
+          <div class="project-window">
+            <div class="window-title-bar">
+              <span class="window-title">draft.exe</span>
+              <span class="panel-title-buttons">
+                <span class="win-btn-sm">_</span>
+                <span class="win-btn-sm">&#9633;</span>
+                <span class="win-btn-sm win-close-sm">X</span>
+              </span>
+            </div>
+            <div class="window-body">
+              <div class="project-screenshot">
+                <span class="screenshot-icon">&#128221;</span>
+              </div>
+              <h3 class="project-name">Draft @ Nota</h3>
+              <p class="project-desc">Flagship AI writing tool. Converts raw notes and files into publishable articles.</p>
+              <div class="project-stats">
+                <span class="project-stat">&#9997; 1000s articles/day</span>
+                <span class="project-stat">&#128101; 600+ users</span>
+              </div>
+              <div class="project-badges">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">TypeScript</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">AI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proof -->
+          <div class="project-window">
+            <div class="window-title-bar">
+              <span class="window-title">proof.exe</span>
+              <span class="panel-title-buttons">
+                <span class="win-btn-sm">_</span>
+                <span class="win-btn-sm">&#9633;</span>
+                <span class="win-btn-sm win-close-sm">X</span>
+              </span>
+            </div>
+            <div class="window-body">
+              <div class="project-screenshot">
+                <span class="screenshot-icon">&#128269;</span>
+              </div>
+              <h3 class="project-name">Proof @ Nota</h3>
+              <p class="project-desc">AI-powered SEO grading tool. Real-time feedback on structure, readability, search performance.</p>
+              <div class="project-stats">
+                <span class="project-stat">&#127919; Built 0 &rarr; 1</span>
+                <span class="project-stat">&#128200; SEO scoring</span>
+              </div>
+              <div class="project-badges">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">TypeScript</span>
+                <span class="tech-badge">AI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chrome Extension -->
+          <div class="project-window">
+            <div class="window-title-bar">
+              <span class="window-title">nota-ext.crx</span>
+              <span class="panel-title-buttons">
+                <span class="win-btn-sm">_</span>
+                <span class="win-btn-sm">&#9633;</span>
+                <span class="win-btn-sm win-close-sm">X</span>
+              </span>
+            </div>
+            <div class="window-body">
+              <div class="project-screenshot">
+                <span class="screenshot-icon">&#127760;</span>
+              </div>
+              <h3 class="project-name">Nota Chrome Extension</h3>
+              <p class="project-desc">Browser extension for newsrooms. Built from scratch, shipped to Chrome Web Store.</p>
+              <div class="project-stats">
+                <span class="project-stat">&#128100; Hundreds of daily users</span>
+                <span class="project-stat">&#127941; Major media cos</span>
+              </div>
+              <div class="project-badges">
+                <span class="tech-badge">Chrome APIs</span>
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">TypeScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- HostPage -->
+          <div class="project-window">
+            <div class="window-title-bar">
+              <span class="window-title">hostpage.exe <span class="blink-new">NEW!</span></span>
+              <span class="panel-title-buttons">
+                <span class="win-btn-sm">_</span>
+                <span class="win-btn-sm">&#9633;</span>
+                <span class="win-btn-sm win-close-sm">X</span>
+              </span>
+            </div>
+            <div class="window-body">
+              <div class="project-screenshot">
+                <span class="screenshot-icon">&#127968;</span>
+              </div>
+              <h3 class="project-name">HostPage</h3>
+              <p class="project-desc">Direct booking platform for Airbnb hosts. Scrape listings, create custom booking sites, accept payments.</p>
+              <div class="project-stats">
+                <span class="project-stat">&#128176; SaaS $29/mo</span>
+                <span class="project-stat">&#127919; Built 0 &rarr; 1</span>
+              </div>
+              <div class="project-badges">
+                <span class="tech-badge">Next.js</span>
+                <span class="tech-badge">Supabase</span>
+                <span class="tech-badge">Stripe</span>
+                <span class="tech-badge">TypeScript</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- OkDoc -->
+          <div class="project-window">
+            <div class="window-title-bar">
+              <span class="window-title">okdoc.exe</span>
+              <span class="panel-title-buttons">
+                <span class="win-btn-sm">_</span>
+                <span class="win-btn-sm">&#9633;</span>
+                <span class="win-btn-sm win-close-sm">X</span>
+              </span>
+            </div>
+            <div class="window-body">
+              <div class="project-screenshot">
+                <span class="screenshot-icon">&#128196;</span>
+              </div>
+              <h3 class="project-name">OkDoc</h3>
+              <p class="project-desc">AI-powered PDF form filler. Upload any form, auto-fill with AI extraction from text or voice.</p>
+              <div class="project-stats">
+                <span class="project-stat">&#129302; AI Vision + Text</span>
+                <span class="project-stat">&#127908; Voice input</span>
+              </div>
+              <div class="project-badges">
+                <span class="tech-badge">Next.js</span>
+                <span class="tech-badge">FastAPI</span>
+                <span class="tech-badge">Gemini</span>
+                <span class="tech-badge">Supabase</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Signal Radar -->
+          <div class="project-window">
+            <div class="window-title-bar">
+              <span class="window-title">signal-radar.exe</span>
+              <span class="panel-title-buttons">
+                <span class="win-btn-sm">_</span>
+                <span class="win-btn-sm">&#9633;</span>
+                <span class="win-btn-sm win-close-sm">X</span>
+              </span>
+            </div>
+            <div class="window-body">
+              <div class="project-screenshot">
+                <span class="screenshot-icon">&#128225;</span>
+              </div>
+              <h3 class="project-name">Signal Radar</h3>
+              <p class="project-desc">Product discovery tool for indie hackers. Aggregates launches from HN, Product Hunt, IndieHackers, BetaList with AI scoring.</p>
+              <div class="project-stats">
+                <span class="project-stat">&#128200; 85-150 signals/day</span>
+                <span class="project-stat">&#129302; AI enrichment</span>
+              </div>
+              <div class="project-badges">
+                <span class="tech-badge">Next.js</span>
+                <span class="tech-badge">FastAPI</span>
+                <span class="tech-badge">Claude API</span>
+                <span class="tech-badge">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== NOW PLAYING ====== -->
+    <div class="now-playing" id="now-playing">
+      <div class="now-playing-header">
+        <span class="now-playing-title">&#9835; Now Playing</span>
+      </div>
+      <div class="now-playing-body">
+        <div class="np-art">&#127925;</div>
+        <div class="np-info">
+          <div class="np-song" id="np-song">Harder, Better, Faster, Stronger</div>
+          <div class="np-artist" id="np-artist">Daft Punk</div>
+        </div>
+        <div class="np-visualizer">
+          <div class="np-bar"></div>
+          <div class="np-bar"></div>
+          <div class="np-bar"></div>
+          <div class="np-bar"></div>
+          <div class="np-bar"></div>
+          <div class="np-bar"></div>
+          <div class="np-bar"></div>
+        </div>
+      </div>
+      <div class="np-controls">
+        <button class="np-ctrl-btn" id="np-prev">&#9198;</button>
+        <button class="np-ctrl-btn active" id="np-play">&#9654;</button>
+        <button class="np-ctrl-btn" id="np-next">&#9197;</button>
+      </div>
+    </div>
+
+    <!-- ====== CONTACT ====== -->
+    <section id="contact" class="panel">
+      <div class="panel-title-bar">
+        <span class="panel-title-text">&#128236; Sign My Guestbook</span>
+        <span class="panel-title-buttons">
+          <span class="win-btn">_</span>
+          <span class="win-btn">&#9633;</span>
+          <span class="win-btn win-close">X</span>
+        </span>
+      </div>
+      <div class="panel-body contact-body">
+        <p class="contact-intro">Thanks for visiting! Feel free to reach out:</p>
+        <div class="contact-links">
+          <a href="#" class="contact-link" id="email-link" onclick="revealEmail(event)">
+            <span class="contact-icon">&#9993;</span>
+            <span id="email-text">[Click to reveal email]</span>
+          </a>
+          <a href="https://linkedin.com/in/habibredissi" target="_blank" class="contact-link">
+            <span class="contact-icon">&#128101;</span>
+            <span>LinkedIn.com/in/habibredissi</span>
+          </a>
+        </div>
+        <div class="guestbook-msg">
+          <p>&gt; Thanks for stopping by my page! Don't forget to bookmark it! &#9733;</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="visitor-counter">
+      You are visitor #<span id="visitor-count">008,421</span>
+    </div>
+    <div class="retro-badges">
+      <span class="retro-badge">&#127760; Best viewed in Netscape Navigator 4.0</span>
+      <span class="retro-badge">&#128221; Made with Notepad</span>
+      <span class="retro-badge">&#9989; HTML 4.0 Certified</span>
+    </div>
+    <div class="under-construction">
+      &#9888; This page is under construction &#9888;
+      <span class="construction-blink">&#9731;&#9731;&#9731;</span>
+    </div>
+    <p class="copyright">&copy; 2026 Habib Redissi. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
