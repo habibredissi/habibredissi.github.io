@@ -6,8 +6,8 @@
 /* ---- EMAIL OBFUSCATION ---- */
 function revealEmail(e) {
   e.preventDefault();
-  var user = 'habib.redissi';
-  var domain = 'gmail.com';
+  var user = 'hi';
+  var domain = 'habibredissi.com';
   var email = user + '@' + domain;
   var link = document.getElementById('email-link');
   var text = document.getElementById('email-text');
